@@ -28,7 +28,7 @@ if __name__ == '__main__':
     time.sleep(3)
     driver.find_element_by_xpath("//span[@class='loc'] ").click()
     time.sleep(3)
-    driver.find_element_by_xpath("//span/button[text()=' Apply Now ']").click()
+   
    
     
 
