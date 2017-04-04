@@ -34,8 +34,8 @@ if __name__ == '__main__':
     driver.find_element_by_xpath("//a[@onclick='flogin();']").click()
     time.sleep(3)
     driver.find_element_by_xpath("//label[@id='loginbutton']").click()
-    #frame = driver.find_element_by_xpath('//frame/button[@class="fn_logBtn fn_mR5 fn_fL"]')
-    #driver.switch_to.frame(frame)
+    frame = driver.find_element_by_xpath('//frame/button[@class="fn_logBtn fn_mR5 fn_fL"]')
+    driver.switch_to.frame(frame)
     
 
     
